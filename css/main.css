@@ -710,7 +710,7 @@ section {
   border-radius: 40px;
   box-shadow: -5px -5px 5px #363636, 5px 5px 10px #000000;
   z-index: -1;
-  transform: skew(355deg, 359deg);
+  transform: skew(355deg, 5deg);
   transition: 0.3s ease all;
 }
 
