@@ -1,4 +1,6 @@
 ## Hi, i'm Reza Keidari
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frezakelidari%2Frezakelidari.github.io.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frezakelidari%2Frezakelidari.github.io?ref=badge_shield)
+
 
 - 👋 Hi, I’m @rezakelidari
 - 👀 I’m interested in Coding
@@ -14,3 +16,7 @@ My projects are as follows:
  - [Learning it. (Incomplete)](https://github.com/rezakelidari/Learning-it)
  - [Travel to Iran](https://github.com/rezakelidari/Travel_to_iran)
  - [IconEngine](https://github.com/rezakelidari/IconEngine)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frezakelidari%2Frezakelidari.github.io.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frezakelidari%2Frezakelidari.github.io?ref=badge_large)
