@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
-import Button from "./Button";
+import "./Home.css"
+import Button from "../Button/Button";
 
 class Hero extends Component {
   state = {};

@@ -1,0 +1,40 @@
+.skill {
+  max-width: 250px;
+  padding: 1rem;
+  box-shadow: -5px -5px 10px var(--button-light),
+    5px 5px 10px var(--button-dark);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.3s ease all;
+}
+
+.skill:hover {
+  box-shadow: -5px -5px 10px var(--button-light),
+    5px 5px 10px var(--button-dark), -5px -5px 10px var(--button-light) inset,
+    5px 5px 10px var(--button-dark) inset;
+}
+
+.skill .me {
+  height: 80px;
+  width: 80px;
+  border-radius: 1000px;
+  margin-top: calc(-40px + -1rem);
+}
+
+.skill .heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.skill .subheading,
+.skill .subheading * {
+  font-size: 0.7rem;
+  text-align: justify;
+  text-align-last: left;
+}

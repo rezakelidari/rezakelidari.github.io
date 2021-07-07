@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./States.css"
 
 class States extends Component {
   state = {

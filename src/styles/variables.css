@@ -1,0 +1,11 @@
+:root {
+  --primary-color: rgba(0, 128, 128, 1);
+  --primary-shadow: rgba(0, 128, 128, 0.5);
+  --primary-shadow-light: rgba(0, 128, 128, 0.2);
+  --button-light: #363636;
+  --button-dark: #000000;
+  --body-bg: rgb(18, 18, 18);
+  --body-bg-transparent: rgba(18, 18, 18, 0.5);
+  --text-primary: #f1f1f1;
+  --text-secondary: #d1d1d1;
+}

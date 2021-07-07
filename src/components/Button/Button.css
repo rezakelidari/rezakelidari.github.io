@@ -1,0 +1,38 @@
+.button {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1000px;
+}
+
+.button.primary {
+  box-shadow: -2.5px -2.5px 5px var(--button-light),
+    3.5px 3.5px 5px var(--button-dark);
+  transition: 0.3s ease all;
+}
+
+.button.primary:hover {
+  box-shadow: -2.5px -2.5px 5px var(--button-light),
+    3.5px 3.5px 5px var(--button-dark),
+    -2.5px -2.5px 5px var(--button-light) inset,
+    3.5px 3.5px 5px var(--button-dark) inset;
+}
+
+.button.secondary {
+  transition: 0.3s ease all;
+}
+
+.button.secondary:hover {
+  box-shadow: -2.5px -2.5px 5px var(--button-light) inset,
+    3.5px 3.5px 5px var(--button-dark) inset;
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    padding: 0.35rem 0.7rem;
+    white-space: nowrap;
+    gap: 0.25rem;
+  }
+}

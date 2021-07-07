@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
-import Button from "./Button";
+import "./Projects.css"
+import Button from "../Button/Button";
 
 class Projects extends Component {
   state = {
