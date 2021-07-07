@@ -6,32 +6,32 @@ class Footer extends Component {
     links: [
       {
         text: "Home",
-        icon: "./icons/home.svg",
+        icon: "./assets/svg/home.svg",
         href: "#home",
       },
       {
         text: "Skills",
-        icon: "./icons/skills.svg",
+        icon: "./assets/svg/skills.svg",
         href: "#skills",
       },
       {
         text: "States",
-        icon: "./icons/states.svg",
+        icon: "./assets/svg/states.svg",
         href: "#states",
       },
       {
         text: "Projects",
-        icon: "./icons/projects.svg",
+        icon: "./assets/svg/projects.svg",
         href: "#projects",
       },
       {
         text: "About",
-        icon: "./icons/about.svg",
+        icon: "./assets/svg/about.svg",
         href: "#about",
       },
       {
         text: "Contact",
-        icon: "./icons/contact.svg",
+        icon: "./assets/svg/contact.svg",
         href: "#contact",
       },
     ],
@@ -39,38 +39,38 @@ class Footer extends Component {
     contact: [
       {
         text: "reza.keliari.1382@gmail.com",
-        icon: "./icons/email.svg",
+        icon: "./assets/svg/email.svg",
         href: "mailto:reza.keliari.1382@gmail.com",
         blank: true,
       },
       {
         text: "Telegram",
-        icon: "./icons/telegram.svg",
+        icon: "./assets/svg/telegram.svg",
         href: "https://t.me/reza_kelidari_315",
         blank: true,
       },
       {
         text: "Tehran, Iran",
-        icon: "./icons/location.svg",
+        icon: "./assets/svg/location.svg",
       },
     ],
 
     social: [
       {
         text: "Github",
-        icon: "./icons/external_link.svg",
+        icon: "./assets/svg/external_link.svg",
         href: "https://github.com/rezakelidari",
         blank: true,
       },
       {
         text: "Instagram",
-        icon: "./icons/external_link.svg",
+        icon: "./assets/svg/external_link.svg",
         href: "https://www.instagram.com/rezakelidari_alone/",
         blank: true,
       },
       {
         text: "Telegram",
-        icon: "./icons/external_link.svg",
+        icon: "./assets/svg/external_link.svg",
         href: "https://t.me/reza_kelidari_315",
         blank: true,
       },
@@ -82,7 +82,7 @@ class Footer extends Component {
         <footer>
           <div className="wrapper">
             <div className="col-title">
-              <img src="./img/me.jpg" alt="" />
+              <img src="./assets/img/me.jpg" alt="" />
               <h1 className="heading">Reza Kelidari</h1>
               <p className="subheading">
                 I'm a intern Front-end developer. I have started my internship

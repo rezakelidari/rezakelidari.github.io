@@ -61,7 +61,7 @@ class Contact extends Component {
                   <li key={socialInfo.name}>
                     <a href={socialInfo.link}>
                       <img
-                        src="./icons/external_link.svg"
+                        src="./assets/svg/external_link.svg"
                         alt=""
                         className="icon"
                       />
@@ -77,21 +77,21 @@ class Contact extends Component {
               <div className="form-group">
                 <label htmlFor="name">Your Name</label>
                 <div className="input-wrapper">
-                  <img src="./icons/person.svg" alt="" className="icon" />
+                  <img src="./assets/svg/person.svg" alt="" className="icon" />
                   <input type="text" name="name" id="name" />
                 </div>
               </div>
               <div className="form-group">
                 <label htmlFor="name">Your Name</label>
                 <div className="input-wrapper">
-                  <img src="./icons/email.svg" alt="" className="icon" />
+                  <img src="./assets/svg/email.svg" alt="" className="icon" />
                   <input type="email" name="email" id="email" />
                 </div>
               </div>
               <div className="buttons">
                 <button type="submit" onClick={event => event.preventDefault()}>
                   Send
-                  <img src="./icons/send.svg" alt="" className="icon" />
+                  <img src="./assets/svg/send.svg" alt="" className="icon" />
                 </button>
               </div>
             </form>
@@ -106,7 +106,7 @@ export default Contact;
 
 class ContactInfo extends Component {
   state = {
-    icon: "./icons/" + this.props.data.icon,
+    icon: "./assets/svg/" + this.props.data.icon,
     text: this.props.data.text,
   };
   render() {

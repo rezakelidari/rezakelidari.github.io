@@ -7,12 +7,12 @@ class Skills extends Component {
       {
         name: "Html/Css/JS",
         desc: "I started learning Html, Css and js from <time datetime='2021-04-21'>April 21, 2021</time>. And so far I have learned these three things well.",
-        icon: "./icons/code.svg",
+        icon: "./assets/svg/code.svg",
       },
       {
         name: "React.js",
         desc: "As a front end developer, I love React.js, I've recently startedlearning it.",
-        icon: "./icons/react.svg",
+        icon: "./assets/svg/react.svg",
       },
     ],
   };
@@ -41,7 +41,7 @@ class Skill extends Component {
   render() {
     return (
       <div className="skill">
-        <img src="./img/me.jpg" alt="Reza Kelidari" className="me" />
+        <img src="./assets/img/me.jpg" alt="Reza Kelidari" className="me" />
         <h3 className="heading">
           <img src={this.state.icon} alt="" className="icon" />
           {this.state.name}

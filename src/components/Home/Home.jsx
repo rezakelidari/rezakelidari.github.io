@@ -22,18 +22,18 @@ class Hero extends Component {
             <Button
               text="See my works"
               href="#projects"
-              icon="./icons/forward.svg"
+              icon="./assets/svg/forward.svg"
               primary
             />
             <Button
               text="Contact me"
               href="#contact"
-              icon="./icons/forward.svg"
+              icon="./assets/svg/forward.svg"
             />
           </div>
         </div>
         <div className="right">
-          <img src="img/me.jpg" alt="Me" />
+          <img src="./assets/img/me.jpg" alt="Me" />
         </div>
       </div>
     );

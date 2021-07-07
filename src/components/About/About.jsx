@@ -10,7 +10,7 @@ class About extends Component {
         <h3 className="heading section-heading">About</h3>
         <div className="wrapper">
           <div className="left">
-            <img src="./img/me.jpg" alt="Me" className="me" />
+            <img src="./assets/img/me.jpg" alt="Me" className="me" />
             <div className="details">
               <h3 className="title">Reza Kelidari</h3>
               <p className="subheading">CEO of my com</p>
@@ -34,15 +34,15 @@ class About extends Component {
             <div className="buttons">
               <Button
                 text="Download Resume"
-                href="./assets/Reza_Kelidari_Resume.pdf"
-                icon="./icons/download.svg"
+                href="./assets/files/Reza_Kelidari_Resume.pdf"
+                icon="./assets/svg/download.svg"
                 primary
                 blank
               />
               <Button
                 text="Contact me"
                 href="#contact"
-                icon="./icons/forward.svg"
+                icon="./assets/svg/forward.svg"
               />
             </div>
           </div>

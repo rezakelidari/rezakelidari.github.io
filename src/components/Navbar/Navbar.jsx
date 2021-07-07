@@ -6,32 +6,32 @@ class Navbar extends Component {
     navs: [
       {
         text: "Home",
-        icon: "./icons/home.svg",
+        icon: "./assets/svg/home.svg",
         href: "#home",
       },
       {
         text: "Skills",
-        icon: "./icons/skills.svg",
+        icon: "./assets/svg/skills.svg",
         href: "#skills"
       },
       {
         text: "States",
-        icon: "./icons/states.svg",
+        icon: "./assets/svg/states.svg",
         href: "#states"
       },
       {
         text: "Projects",
-        icon: "./icons/projects.svg",
+        icon: "./assets/svg/projects.svg",
         href: "#projects"
       },
       {
         text: "About",
-        icon: "./icons/about.svg",
+        icon: "./assets/svg/about.svg",
         href: "#about"
       },
       {
         text: "Contact",
-        icon: "./icons/contact.svg",
+        icon: "./assets/svg/contact.svg",
         href: "#contact",
       }
     ]

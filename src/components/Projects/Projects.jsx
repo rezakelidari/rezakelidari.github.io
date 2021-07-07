@@ -8,21 +8,21 @@ class Projects extends Component {
       {
         name: "IconEngine",
         desc: "A collection of 200+ free high quality MIT licensed MIT icons for use in your web projects. Developed By reza kelidari & fully open-source!",
-        image: "./img/iconengine.jpg",
+        image: "./assets/img/iconengine.jpg",
         websiteLink: "https://rezakelidari.github.io/IconEngine/",
         githubLink: "https://github.com/rezakelidari/IconEngine/",
       },
       {
         name: "Travel to iran",
         desc: "A tourist site that introduces popular destinations to tourists (not completed).",
-        image: "./img/travel_to_iran.jpg",
+        image: "./assets/img/travel_to_iran.jpg",
         websiteLink: "https://rezakelidari.github.io/Travel_to_iran/",
         githubLink: "https://github.com/rezakelidari/Travel_to_iran/",
       },
       {
         name: "My portfolio",
         desc: "This is my portfolio site, which includes my profile, my abilities, and my portfolio. Developed by React.js",
-        image: "./img/my_portfolio.jpg",
+        image: "./assets/img/my_portfolio.jpg",
         websiteLink: "https://rezakelidari.github.io/",
         githubLink: "https://github.com/rezakelidari/rezakelidari.github.io/",
       },
@@ -63,14 +63,14 @@ class Project extends Component {
             <Button
               text="Go to page"
               href={this.state.websiteLink}
-              icon="./icons/external_link.svg"
+              icon="./assets/svg/external_link.svg"
               primary
               blank
             />
             <Button
               text="Open in github"
               href={this.state.githubLink}
-              icon="./icons/external_link.svg"
+              icon="./assets/svg/external_link.svg"
               blank
             />
           </div>
