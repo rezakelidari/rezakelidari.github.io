@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Projects.css"
+import "./Projects.css";
 import Button from "../Button/Button";
 
 class Projects extends Component {
@@ -13,8 +13,15 @@ class Projects extends Component {
         githubLink: "https://github.com/rezakelidari/IconEngine/",
       },
       {
+        name: "My resturant",
+        desc: "A simple site for restaurants (not completed).",
+        image: "./assets/img/simple_restaurant.jpg",
+        websiteLink: "https://rezakelidari.github.io/react-simple-restaurant/",
+        githubLink: "https://github.com/rezakelidari/react-simple-restaurant",
+      },
+      {
         name: "Travel to iran",
-        desc: "A tourist site that introduces popular destinations to tourists (not completed).",
+        desc: "A simple tourist site that introduces popular destinations to tourists (not completed).",
         image: "./assets/img/travel_to_iran.jpg",
         websiteLink: "https://rezakelidari.github.io/Travel_to_iran/",
         githubLink: "https://github.com/rezakelidari/Travel_to_iran/",
@@ -60,13 +67,15 @@ class Project extends Component {
           <h3 className="heading">{this.state.name}</h3>
           <p className="subheading">{this.state.desc}</p>
           <div className="buttons">
-            <Button
-              text="Go to page"
-              href={this.state.websiteLink}
-              icon="./assets/svg/external_link.svg"
-              primary
-              blank
-            />
+            {this.state.websiteLink !== undefined && (
+              <Button
+                text="Go to page"
+                href={this.state.websiteLink}
+                icon="./assets/svg/external_link.svg"
+                primary
+                blank
+              />
+            )}
             <Button
               text="Open in github"
               href={this.state.githubLink}
